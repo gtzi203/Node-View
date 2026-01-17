@@ -1,0 +1,15 @@
+# textdomain: node_view
+
+Hand=Mano
+Pickaxe=Piccone
+Sword=Spada
+Shears=Cesoie
+Axe=Ascia
+Shovel=Pala
+
+Unbreakable=Indistruttibile
+None=Nessuno
+Type=Tipo
+Health=Salute
+
+Unknown=Sconosciuto

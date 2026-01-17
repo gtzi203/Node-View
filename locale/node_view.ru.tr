@@ -1,0 +1,15 @@
+# textdomain: node_view
+
+Hand=Рука
+Pickaxe=Кирка
+Sword=Меч
+Shears=Ножницы
+Axe=Топор
+Shovel=Лопата
+
+Unbreakable=Неразрушимый
+None=Нет
+Type=Тип
+Health=Здоровье
+
+Unknown=Неизвестно

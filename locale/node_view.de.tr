@@ -1,0 +1,15 @@
+# textdomain: node_view
+
+Hand=Hand
+Pickaxe=Spitzhacke
+Sword=Schwert
+Shears=Schere
+Axe=Axt
+Shovel=Schaufel
+
+Unbreakable=Unzerstörbar
+None=Keiner
+Type=Typ
+Health=Gesundheit
+
+Unknown=Unbekannt

@@ -1,0 +1,15 @@
+# textdomain: node_view
+
+Hand=Main
+Pickaxe=Pioche
+Sword=Épée
+Shears=Cisailles
+Axe=Hache
+Shovel=Pelle
+
+Unbreakable=Incassable
+None=Aucun
+Type=Type
+Health=Santé
+
+Unknown=Inconnu

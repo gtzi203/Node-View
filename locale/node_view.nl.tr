@@ -1,0 +1,15 @@
+# textdomain: node_view
+
+Hand=Hand
+Pickaxe=Houwelen / Pikhouweel
+Sword=Zwaard
+Shears=Snoeischaar
+Axe=Bijl
+Shovel=Schop
+
+Unbreakable=Onbreekbaar
+None=Geen
+Type=Type
+Health=Gezondheid
+
+Unknown=Onbekend

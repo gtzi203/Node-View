@@ -1,0 +1,15 @@
+# textdomain: node_view
+
+Hand=Ruka
+Pickaxe=Krápáč / Krumpáč
+Sword=Meč
+Shears=Nůžky
+Axe=Sekera
+Shovel=Lopata
+
+Unbreakable=Nezničitelné
+None=Žádné
+Type=Typ
+Health=Zdraví
+
+Unknown=Neznámé

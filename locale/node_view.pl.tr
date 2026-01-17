@@ -1,0 +1,15 @@
+# textdomain: node_view
+
+Hand=Ręka
+Pickaxe=Kilof
+Sword=Miecz
+Shears=Nożyce
+Axe=Siekiera
+Shovel=Łopata
+
+Unbreakable=Niezniszczalny
+None=Brak
+Type=Typ
+Health=Zdrowie
+
+Unknown=Nieznane

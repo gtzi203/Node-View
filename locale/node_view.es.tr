@@ -1,0 +1,15 @@
+# textdomain: node_view
+
+Hand=Mano
+Pickaxe=Pico
+Sword=Espada
+Shears=Tijeras
+Axe=Hacha
+Shovel=Pala
+
+Unbreakable=Irrompible
+None=Ninguno
+Type=Tipo
+Health=Salud
+
+Unknown=Desconocido
