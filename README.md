@@ -12,12 +12,15 @@ Features:
 
 
 
-Let's you see:
-
-* the Name of the node/Entity you are Looking at
-* the tool, that's needed to break the node
-* the healt of an Entity
-* the mod, that the node/entity belongs to
+* let's you see:
+  * the name of the node/Entity you are looking at
+  * the tool, that's needed to break the node
+  * the health of an entity
+  * the mod, that the node/entity belongs to
+* open the editor with /nv:
+  * edit the color of the background
+  * edit the hud position
+  * change the health to hearts/points
 
 
 
@@ -43,4 +46,3 @@ See LICENSE.txt for more information.
 Credits:
 
 Special thanks to ChatGPT for helping me with (mostly) good ideas and bug-fixing.
-

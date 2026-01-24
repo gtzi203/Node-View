@@ -13,3 +13,22 @@ Type=Type
 Health=Gezondheid
 
 Unknown=Onbekend
+
+Preview=Voorbeeld
+Hud Alignment=HUD-uitlijning
+Top-Middle=Boven-Midden
+Top-Right=Boven-Rechts
+Top-Left=Boven-Links
+Middle-Right=Midden-Rechts
+Middle-Left=Midden-Links
+Bottom-Right=Onder-Rechts
+Bottom-Left=Onder-Links
+Health in=Gezondheid in
+Points=Punten
+Hearts=Harten
+Set to Default=Standaard herstellen
+Change Preview to=Voorbeeld wijzigen naar
+Node=Node
+Entity=Entiteit
+Cancel=Annuleren
+Apply Changes=Wijzigingen toepassen
