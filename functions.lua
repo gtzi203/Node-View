@@ -151,7 +151,7 @@ function node_view.get_obj(player)
       else
         obj_name = "unknown"
         obj_description = S("Unknown")
-        obj_mesh = entity.mesh or "node_view_default_mesh.obj"
+        obj_mesh = "node_view_default_mesh.obj" --entity.mesh or "node_view_default_mesh.obj"
         obj_texture = "node_view_default_texture.png"
         obj_pos = "?"
         obj_type = "entity"
@@ -469,7 +469,11 @@ function node_view.remove_last_path_element(path)
 end
 
 function node_view.round1(x)
-  return math.floor(x * 10 + 0.5) / 10
+  if x then
+    return math.floor(x * 10 + 0.5) / 10
+  else
+    return nil
+  end
 end
 
 -- Entfernt alles ab dem ersten ^ (Texture-Modifiers)
@@ -736,28 +740,30 @@ function node_view.get_hud(player, data)
           entity = minetest.registered_entities["node_view:preview_entity"].initial_properties
         end
 
-        local entity_hp = entity.health
+        if entity then
+          local entity_hp = entity.health
 
-        if not entity_hp then
-          entity_hp = entity.hp
-        end
+          if not entity_hp then
+            entity_hp = entity.hp
+          end
 
-        if not entity_hp then
-          entity_hp = entity.object:get_hp()
-        end
+          if not entity_hp then
+            entity_hp = entity.object:get_hp()
+          end
 
-        local entity_max_hp = entity.max_health
+          local entity_max_hp = entity.max_health
 
-        if not entity_max_hp then
-          entity_max_hp = entity.max_hp
-        end
+          if not entity_max_hp then
+            entity_max_hp = entity.max_hp
+          end
 
-        if not entity_max_hp then
-          entity_max_hp = entity.hp_max
-        end
+          if not entity_max_hp then
+            entity_max_hp = entity.hp_max
+          end
 
-        if not entity_max_hp then
-          entity_max_hp = entity.object:get_hp()
+          if not entity_max_hp then
+            entity_max_hp = entity.object:get_hp()
+          end
         end
 
         if meta:get_string("nv_hud_health_in") == "Hearts" then
