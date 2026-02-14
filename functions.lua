@@ -740,8 +740,11 @@ function node_view.get_hud(player, data)
           entity = minetest.registered_entities["node_view:preview_entity"].initial_properties
         end
 
+        local entity_hp
+        local entity_max_hp
+
         if entity then
-          local entity_hp = entity.health
+          entity_hp = entity.health
 
           if not entity_hp then
             entity_hp = entity.hp
@@ -751,7 +754,7 @@ function node_view.get_hud(player, data)
             entity_hp = entity.object:get_hp()
           end
 
-          local entity_max_hp = entity.max_health
+          entity_max_hp = entity.max_health
 
           if not entity_max_hp then
             entity_max_hp = entity.max_hp
